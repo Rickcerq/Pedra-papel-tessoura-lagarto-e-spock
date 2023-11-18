@@ -1,7 +1,7 @@
 from random import randint
 itens = ('Pedra', 'Papel', 'Tesoura', 'Lagarto', 'Spock')
 computador = randint(0, 4)
-jogador= int(input('Escolha entre Pedra, Papel, Tesoura, Lagarto e Spock: '))
+jogador= int(input('Escolha entre: 0 - Pedra, 1 - Papel, 2 - Tesoura, 3 - Lagarto e 4 - Spock: '))
 print('-=' * 11)
 print ('O jogador escolheu {}'.format(itens[jogador]))
 print('O computador escolheu {}'.format(itens[computador]))
